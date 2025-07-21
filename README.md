@@ -1,4 +1,4 @@
-
+<img width="978" height="335" alt="image" src="https://github.com/user-attachments/assets/d2ae6070-2cd4-4727-b034-73ac41008762" />
 # 🏢 NetFusion Corp – Smart Office Network Simulation
 
 ![Built with Cisco Packet Tracer](https://img.shields.io/badge/Built%20With-Cisco%20Packet%20Tracer%208.x-blue?style=for-the-badge)
@@ -32,27 +32,20 @@ Design and deploy a **smart office network** for **NetFusion Corp**, complete wi
 ## 🖥️ Topology Overview (Visual)
 
 ### 📊 Smart Office Network Topology
-
-> Use this SVG as a rendered **network flowchart** (convert to PNG/SVG using tools like draw.io or Figma if GitHub doesn't render it):
-
-
 <svg width="650" height="220" xmlns="http://www.w3.org/2000/svg">
   <style>
     .box { fill: #333; stroke: #0ff; stroke-width: 2; rx: 6; }
     .text { font: bold 13px sans-serif; fill: #fff; text-anchor: middle; }
     .iot { fill: #88f; stroke: #fff; stroke-width: 2; rx: 6; }
   </style>
-
   <!-- Router -->
   <rect x="275" y="20" width="100" height="40" class="box"/>
   <text x="325" y="45" class="text">Router</text>
-
   <!-- Switches -->
   <rect x="100" y="80" width="100" height="40" class="box"/>
   <text x="150" y="105" class="text">Switch 1</text>
   <rect x="450" y="80" width="100" height="40" class="box"/>
   <text x="500" y="105" class="text">Switch 2</text>
-
   <!-- Departments -->
   <rect x="30" y="140" width="90" height="40" class="box"/>
   <text x="75" y="165" class="text">HR Dept</text>
@@ -60,15 +53,12 @@ Design and deploy a **smart office network** for **NetFusion Corp**, complete wi
   <text x="195" y="165" class="text">Finance</text>
   <rect x="470" y="140" width="90" height="40" class="box"/>
   <text x="515" y="165" class="text">IT Dept</text>
-
   <!-- Server Farm -->
   <rect x="275" y="140" width="100" height="40" class="box"/>
   <text x="325" y="165" class="text">Server Farm</text>
-
   <!-- IoT -->
   <rect x="580" y="140" width="60" height="40" class="iot"/>
   <text x="610" y="165" class="text">IoT</text>
-
   <!-- Lines -->
   <line x1="325" y1="60" x2="150" y2="80" stroke="#0ff" stroke-width="2"/>
   <line x1="325" y1="60" x2="500" y2="80" stroke="#0ff" stroke-width="2"/>
@@ -76,7 +66,10 @@ Design and deploy a **smart office network** for **NetFusion Corp**, complete wi
   <line x1="150" y1="120" x2="195" y2="140" stroke="#0ff" stroke-width="2"/>
   <line x1="500" y1="120" x2="470" y2="140" stroke="#0ff" stroke-width="2"/>
   <line x1="500" y1="120" x2="610" y2="140" stroke="#0ff" stroke-width="2"/>
-  <line x1="325" y1="120" x2="325" y2="140" stroke="#0ff" stroke-width="2"/>
+  <line x1="325" y1="60" x2="325" y2="140" stroke="#0ff" stroke-width="2"/>
+</svg>
+
+
 
 
 ---
